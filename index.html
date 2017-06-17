@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Google I/O Extended Thailand Live feed</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="manifest" href="static/manifest.json">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#FFF">
+    <meta property='og:url' content='https://live.gdg.in.th/'/>
+    <meta property='og:type' content='website'/>
+    <meta property='og:title' content='Google I/O Extended Thailand Live feed'/>
+    <meta property='og:description' content='Live feed for Google I/O Extended Thailand Presented by ANANDA UrbanTech'/>
+    <meta property='og:image' content='https://live.gdg.in.th/static/og-image.png'/>
+  </head>
+  <body>
+    <p id="noscriptmsg">JavaScript is disabled. To enable it follow <a href="http://enable-javascript.com/">this</a></p>
+    <div id="app"></div>
+  </body>
+  <script>
+    (function() {
+      document.getElementById('noscriptmsg').style.display = "none";
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/service-worker.js');
+      }
+    })()
+  </script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-98389644-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  <style>
+  .mdl-layout__header, .mdl-layout__tab-bar-container {
+    background: #FFF !important;
+  }
+  .mdl-layout__tab-bar-button {
+    background: #FFF !important;
+  }
+  .mdl-layout__tab-bar {
+    background: #FFF !important;
+  }
+  .mdl-layout__tab {
+    color: #BDBDBD;
+  }
+  .is-active {
+    color: #BDBDBD !important;
+  }
+  .mdl-layout.is-upgraded .mdl-layout__tab.is-active::after {
+    background: #1CE8B5;
+  }
+  .noscriptmsg{ text-align: center;}
+  </style>
+</html>
+

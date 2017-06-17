@@ -1,0 +1,23 @@
+{
+  "name": "live-stream-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^1.1.0",
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.1",
+    "express": "^4.15.2",
+    "firebase": "^3.7.4",
+    "firebase-admin": "^4.1.1",
+    "firebase-functions": "^0.5.1",
+    "image-downloader": "^3.2.1",
+    "messenger-bot": "^2.4.0",
+    "request": "^2.81.0"
+  }
+}
